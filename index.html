@@ -789,10 +789,65 @@ alert("✨You Got free Critical Damage from moon dust✨")
 </script>
 </fieldset>
 
-  <fieldset class="box-led">
+  
+<fieldset class="box-led">
+ <label for="">Noob Hecker's House:</label>
   <center>
-  <h2><a >[COMING SOON]</a></h2>
+   
+  
   </center>
+<fieldset style="background-color:Red;" class="SHOP" id="Noobhecker" hidden="">
+  <h2>Noob Hecker</h2>
+  	  <h3>[LVL 5]</h3>
+ <li class="purchaseItem" id="Noob_Hecker" data-price="0.0000001" data-bits-per-sec="0.0000005">
+
+
+                          <span hidden=""class="amountOfItem">0</span>
+                    <p class="itemHeadline">TAP TO attack</p>
+
+                    <p hidden=""class="itemPrice">1M Cash</p>
+                                    
+                    
+                </li>
+  
+  <kbd>5 Min Despawn</kbd>
+</fieldset>
+
+<script>
+setTimeout(myFunction9, 5000000)
+setTimeout(myFunction0, 1)
+
+function myFunction0() {
+document.getElementById('Noobhecker').hidden = false;
+alert("Noob Hecker has Arrived");
+console.log("Noob_Hecker = Mob $(spawned)");
+}
+function myFunction9() {
+document.getElementById('Noobhecker').hidden = true;
+alert("Noob Hecker Got Arrested!");
+alert("Noob Hecker:I will be back soon!!!");
+console.log("Noob_Hecker = Mob $(removed_0)");
+}
+</script>
+</fieldset>
+
+  <fieldset class="box-led">
+                      <figure></figure>
+                            <fieldset class="SHOP">
+<h2>Hecker Cat</h2>
+<h3 style="color:maroon;">[STRONG]</h3>
+<p>cat worlds</p>
+                <li class="purchaseItem" id="item_hecker_cat" data-price="60000.1000000" data-bits-per-sec="6.1000000">
+
+
+                    <span class="amountOfItem">0</span>
+                    <p class="itemHeadline">HIRE</p>
+
+                    <p class="itemPrice">60000.1000000 Cash</p>
+                                 
+                </li>
+                </fieldset>
+                <figure></figure>
 </fieldset>
   <style>
   body {
@@ -904,6 +959,16 @@ var items = [
 
   },
   
+{
+    "name": "item_hecker_cat",
+    "price": "60000.1000000"
+
+  },
+  {
+    "name": "Noob_Hecker",
+    "price": "0.0000001"
+
+  },
 ];
 
 
